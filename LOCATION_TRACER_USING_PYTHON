@@ -9,7 +9,7 @@ import folium
 
 
 
-key = "f67315fb207a42f0abca3dc52704c8bd"  
+key = "f67315fb20xxxxxxxxxxxxxxxxxxxxxxx"  
 number = input("please giver your number: ")
 new_number = phonenumbers.parse(number)
 location = geocoder.description_for_number(new_number, "en")
